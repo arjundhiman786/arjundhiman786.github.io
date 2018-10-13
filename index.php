@@ -16,6 +16,7 @@
 </nav> -->
 <a href="mailto:arjund38@gmail.com">Email</a>  &nbsp; | &nbsp;
 <a href="https://github.com/arjundhiman786/">GitHub</a>  &nbsp; |  &nbsp;
+<a href="https://www.linkedin.com/in/arjun-dhiman-7ab404110/">Linkedin</a>  &nbsp; |  &nbsp;
 <a href="other/resume.pdf">Resume</a>
 <div id="projects">
 <h1 class="display-4"> My Projects </h1>
