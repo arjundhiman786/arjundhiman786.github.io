@@ -12,10 +12,10 @@
     <title>Arjun Dhiman</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap/css/bootstrap.min.css"  type="text/css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
@@ -54,8 +54,9 @@
         <h1 class="text-uppercase mb-0">Arjun Dhiman</h1>
         <hr class="special">
         <h2 class="font-weight-light mb-0">
-            I'm a Software Developer based in Toronto, Canada.
+            I'm a Software Engineer based in Toronto, Canada.
         </h2>
+        <h4>Who has a interested in Data science, and DevOps.</h4>
     </div>
 </header>
 
@@ -64,7 +65,7 @@
     <div class="container">
         <div class="page-header">
             <h1 class="sectiontitle">Work Experience</h1>
-            <a href="assets/resume.pdf">Downloadable copy of resume</a>
+            <a href="assets/resume.pdf">Downloadable copy of my resume</a>
             <hr/>
         </div>
         <ul class="timeline">
@@ -185,6 +186,7 @@
                     <li>Postgres</li>
                     <li>MySQL</li>
                     <li>MongoDB</li>
+                    <li>Cassandra</li>
                 </ul>
                 <hr/>
                 <h5>Frameworks</h5>
@@ -201,6 +203,10 @@
                 <hr>
                 <ul>
                     <li>Git</li>
+                    <li>numpy</li>
+                    <li>scikit-learn</li>
+                    <li>pandas</li>
+                    <li>matplotlib</li>
                     <li>SVN</li>
                     <li>LaTex</li>
                     <li>Apache Hadoop</li>

@@ -63,7 +63,8 @@
         <div class="row">
             <div class="col-sm-10">
                 <div class="card">
-                    <div class="card-body">
+                  No posts yet
+                    <div style="display:none;" class="card-body">
                         <h3 class="card-title">Making a continuous integration pipeline for android applications</h3>
                         <p>Wednesday, November, 28th, 2018</p>
                         <hr/>
