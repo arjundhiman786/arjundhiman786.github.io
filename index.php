@@ -39,8 +39,11 @@
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded" href="portfolio.php">Portfolio</a>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1">
+                <li class="nav-item mx-0 mx-lg-1" style="display:none;">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded" href="blog.php">Blog</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1" style="display:none;">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="photo_gallery.php">Photo Gallery</a>
                 </li>
             </ul>
         </div>
@@ -50,22 +53,84 @@
 <!-- Header -->
 <header class="text-white text-center">
     <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto arjunimage" src="images/arjun.jpg" alt="picture of Arjun Dhiman">
-        <h1 class="text-uppercase mb-0">Arjun Dhiman</h1>
+        <!--<img class="img-fluid mb-5 d-block mx-auto arjunimage" src="images/arjun.jpg" alt="picture of Arjun Dhiman"> -->
+        <h1 class="text-uppercase mb-0">Hi I'm Arjun Dhiman!</h1>
         <hr class="special">
         <h2 class="font-weight-light mb-0">
             I'm a Software Engineer based in Toronto, Canada.
         </h2>
-        <h4>Who has a interested in Data science, and DevOps.</h4>
+        <h4 style="display:none;">Who has an interest in Data science, and DevOps.</h4>
     </div>
 </header>
+
+<!-- Skills Grid Section -->
+<section class="skills" id="skills">
+    <div class="container">
+        <div class="page-header">
+            <h1 class="sectiontitle"> My Skills</h1>
+            <hr/>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-5 mb-lg-0">
+                <h5>Programming languages</h5>
+                  <hr/>
+                 <ul>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Java</li>
+                   <li>Scala</li>
+                   <li>Python</li>
+                   <li>PHP</li>
+                   <li>C</li>
+                 </ul>
+            </div>
+            <div class="col-md-4 mb-5 mb-lg-0">
+                <h5>Database Technologies</h5>
+                <hr>
+                <ul>
+                    <li>Postgres</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li style="display:none;">Cassandra</li>
+                </ul>
+                <hr/>
+                <h5>Frameworks</h5>
+                <hr>
+                <ul>
+                    <li>Apache Spark 2.x</li>
+                    <li>Bootstrap</li>
+                    <li>AngularJS</li>
+                    <li>JQuery</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-5 mb-lg-0">
+                <h5>Tools and Other</h5>
+                <hr>
+                <ul>
+                    <li>Git</li>
+                    <li>numpy</li>
+                    <li>scikit-learn</li>
+                    <li>pandas</li>
+                    <li>matplotlib</li>
+                    <li>SVN</li>
+                    <li>LaTex</li>
+                    <li>Apache Hadoop</li>
+                    <li>Docker</li>
+                    <li>Jenkins</li>
+                    <li>Airflow</li>
+                    <li>Ansible</li>
+                    <li>JIRA</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- About Grid Section -->
 <section class="about" id="about">
     <div class="container">
         <div class="page-header">
             <h1 class="sectiontitle">Work Experience</h1>
-            <a href="assets/resume.pdf">Downloadable copy of my resume</a>
             <hr/>
         </div>
         <ul class="timeline">
@@ -150,74 +215,6 @@
                 </div>
             </li>
         </ul>
-    </div>
-</section>
-
-<!-- Skills Grid Section -->
-<section class="skills" id="skills">
-    <div class="container">
-        <div class="page-header">
-            <h1 class="sectiontitle">Skills</h1>
-            <hr/>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mb-5 mb-lg-0">
-                <h5>Programming languages</h5>
-                <hr/>
-                HTML:
-                <div class="html">90%</div>
-                CSS:
-                <div class="css">85%</div>
-                Java & Scala
-                <div class="java_scala">80%</div>
-                C
-                <div class="c">70%</div>
-                JavaScript
-                <div class="js">70%</div>
-                Python
-                <div class="python">80%</div>
-                PHP
-                <div class="php">80%</div>
-            </div>
-            <div class="col-md-4 mb-5 mb-lg-0">
-                <h5>Database Technologies</h5>
-                <hr>
-                <ul>
-                    <li>Postgres</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>Cassandra</li>
-                </ul>
-                <hr/>
-                <h5>Frameworks</h5>
-                <hr>
-                <ul>
-                    <li>Apache Spark 2.x.x</li>
-                    <li>Bootstrap</li>
-                    <li>AngularJS</li>
-                    <li>JQuery</li>
-                </ul>
-            </div>
-            <div class="col-md-4 mb-5 mb-lg-0">
-                <h5>Tools and Other</h5>
-                <hr>
-                <ul>
-                    <li>Git</li>
-                    <li>numpy</li>
-                    <li>scikit-learn</li>
-                    <li>pandas</li>
-                    <li>matplotlib</li>
-                    <li>SVN</li>
-                    <li>LaTex</li>
-                    <li>Apache Hadoop</li>
-                    <li>Docker</li>
-                    <li>Jenkins</li>
-                    <li>Airflow</li>
-                    <li>Ansible</li>
-                    <li>JIRA</li>
-                </ul>
-            </div>
-        </div>
     </div>
 </section>
 

@@ -37,9 +37,9 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.php">About Me</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded active" href="Portfolio.php">Portfolio</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded active" href="portfolio.php">Portfolio</a>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1">
+                <li class="nav-item mx-0 mx-lg-1" style="display:none;">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded" href="blog.php">Blog</a>
                 </li>
             </ul>
@@ -48,7 +48,7 @@
 </nav>
 
 <!-- Header -->
-<header class="text-white text-center">
+<header class="text-white text-center" style="display:none;">
     <div class="container"><span class="fas fa-stroopwafel fa-10x"></span>
         <hr class="special">
         <h2 class="font-weight-light mb-0">
