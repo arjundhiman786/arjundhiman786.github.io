@@ -1,0 +1,12 @@
+{
+    "projects": [
+        {
+            "name": "test1",
+            "description": "test",
+            "type": "Web App",
+            "github_link": "link",
+            "demo_link": "http://www.google.com",
+            "image_location": ""
+        }
+    ]
+}
