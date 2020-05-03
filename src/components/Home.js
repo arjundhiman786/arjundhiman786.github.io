@@ -41,7 +41,7 @@ function Home() {
                 </span>
               </Typography>
               <Typography variant="h5">
-                I'm a developer{" "}
+                I'm a Software Engineer based in Toronto, ON{" "}
                 <span role="img" aria-label="computer">
                   &#128187;
                 </span>

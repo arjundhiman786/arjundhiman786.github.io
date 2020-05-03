@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -24,7 +23,6 @@ function ProjectCard(props) {
   return (
     <>
       <Card className={classes.root}>
-        <CardActionArea>
           <CardMedia
             component="img"
             alt="Contemplative Reptile"
@@ -40,7 +38,6 @@ function ProjectCard(props) {
               {description}
             </Typography>
           </CardContent>
-        </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
             Github
