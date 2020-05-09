@@ -1,5 +1,5 @@
 # Arjun Dhiman Personal Website Repo
-### This Repository contains all code for my personal website which is hosted at http://arjundhiman.ca
+### This Repository contains all code for my personal website which is hosted at http://arjundhiman.com
 ---
 # How to run application locally
 
