@@ -45,6 +45,10 @@ function Home() {
                 <span role="img" aria-label="computer">
                   &#128187;
                 </span>
+                <br/>
+                <Typography variant="subtitle1">
+                  Currently an Intermediate Software Developer at BMO 
+                </Typography>
               </Typography>
               <Contact />
             </Grid>

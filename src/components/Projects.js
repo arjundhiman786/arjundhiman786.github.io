@@ -21,11 +21,13 @@ function Projects() {
         Projects
       </Typography>
       <Divider />
-      <Grid container className={classes.grid}>
+      <br/>
+      Coming soon...
+      {/* <Grid container className={classes.grid}>
         <Grid item xs>
           <ProjectCard title="test" description="Test" />
         </Grid>
-      </Grid>
+      </Grid> */}
     </>
   );
 }

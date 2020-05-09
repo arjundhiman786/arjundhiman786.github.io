@@ -5,6 +5,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import DescriptionIcon from "@material-ui/icons/Description";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import resume from "./assets/resume.pdf"
 
 function Contact() {
   return (
@@ -23,7 +24,7 @@ function Contact() {
             <EmailIcon />
           </a>
           &nbsp;
-          <a href="resume.pdf">
+          <a download="resume.pdf" href={resume}>
             <DescriptionIcon />
           </a>
           &nbsp;
