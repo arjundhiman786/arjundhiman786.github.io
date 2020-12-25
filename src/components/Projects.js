@@ -1,34 +1,59 @@
-import React from "react";
-import { Typography, Grid, Divider } from "@material-ui/core";
+import { Divider, Typography } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
 import { makeStyles } from "@material-ui/core/styles";
-import ProjectCard from "./ProjectCard";
+import React from "react";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    flexGrow: 1,
+    marginTop: 40,
   },
-  grid: {
-    marginTop: 20,
-  },
-});
+  paper: {
+    padding: theme.spacing(2),
 
-function Projects() {
+    color: theme.palette.text.secondary,
+  },
+}));
+
+export default function Projects() {
   const classes = useStyles();
 
   return (
     <>
-      <Typography variant="h4" style={{ marginTop: 30 }}>
-        Projects
-      </Typography>
-      <Divider />
-      <br/>
-      Coming soon...
-      {/* <Grid container className={classes.grid}>
-        <Grid item xs>
-          <ProjectCard title="test" description="Test" />
+      <div className={classes.root}>
+        <Divider />
+        <br />
+        <Grid container spacing={3}>
+          <Grid item xs={6}>
+            <Paper className={classes.paper} elevation={3}>
+              <Typography variant="h4" style={{ marginTop: 30 }}>
+                Projects
+              </Typography>
+              <Divider />
+              <br />
+              <ol>
+                <li>
+                  <a href="/cheatsheets">Cheatsheets</a>
+                </li>
+              </ol>
+            </Paper>
+          </Grid>
+          <Grid item xs={6}>
+            <Paper className={classes.paper} elevation={3}>
+              <Typography variant="h4" style={{ marginTop: 30 }}>
+                Blog Posts
+              </Typography>
+              <Divider />
+              {/* <ul>
+                <li>a</li>
+              </ul> */}
+              <br />
+              Coming soon...
+            </Paper>
+          </Grid>
         </Grid>
-      </Grid> */}
+      </div>
     </>
   );
 }
-export default Projects;

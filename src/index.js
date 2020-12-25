@@ -1,12 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Cheatsheets from "./components/Cheatsheets";
+import Dashboard from "./components/controlpanel/Dashboard";
+import Login from "./components/controlpanel/Login";
+import NewBlogPost from "./components/controlpanel/NewBlogPost";
+import Home from "./components/Home";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import Home from "./components/Home";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/new_post" component={NewBlogPost} />
+        <Route exact path="/cheatsheets" component={Cheatsheets} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

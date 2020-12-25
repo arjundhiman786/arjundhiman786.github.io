@@ -5,9 +5,9 @@ import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import DescriptionIcon from "@material-ui/icons/Description";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import resume from "./assets/resume.pdf"
+import resume from "./assets/resume.pdf";
 
-function Contact() {
+export default function Contact() {
   return (
     <>
       <Grid style={{ marginTop: 20 }}>
@@ -36,5 +36,3 @@ function Contact() {
     </>
   );
 }
-
-export default Contact;

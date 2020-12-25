@@ -17,27 +17,27 @@ const useStyles = makeStyles({
 });
 
 function ProjectCard(props) {
-  let title = props.title;
-  let description = props.description;
+  const { title } = props;
+  const { description } = props;
   const classes = useStyles();
   return (
     <>
       <Card className={classes.root}>
-          <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            height="140"
-            image="https://cdn.mos.cms.futurecdn.net/VZZRRfEZ5zCJKHod6sdyrg-1024-80.jpg"
-            title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              {title}
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              {description}
-            </Typography>
-          </CardContent>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="140"
+          image="https://cdn.mos.cms.futurecdn.net/VZZRRfEZ5zCJKHod6sdyrg-1024-80.jpg"
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {title}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {description}
+          </Typography>
+        </CardContent>
         <CardActions>
           <Button size="small" color="primary">
             Github
