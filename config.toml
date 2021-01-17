@@ -1,0 +1,45 @@
+baseurl = "/"
+languageCode = "en-US"
+title = "Arjun Dhiman"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "avtar.jpg"
+  author = "Arjun Dhiman"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "https://github.com/arjundhiman786/"
+  Email         = "arjund38@gmail.com"
+  Twitter       = "dhimanarjun38"
+  LinkedIn      = "https://ca.linkedin.com/in/arjundhiman"
+  Medium        = "arjund38"
+
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/resume.pdf"
