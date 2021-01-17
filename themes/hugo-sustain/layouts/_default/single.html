@@ -1,7 +1,6 @@
 {{ partial "head" . }}
   <body>
     <div id="wrap">
-
       <!-- Header -->
       {{ partial "header" . }}
       {{ if isset .Params "showpagemeta" }}
@@ -47,7 +46,7 @@
             </div>
           </div>
           <hr>
-        {{ partial "disqus" . }}
+        <!-- {{ partial "disqus" . }} -->
         </div>
       </div>
       {{ end }}
