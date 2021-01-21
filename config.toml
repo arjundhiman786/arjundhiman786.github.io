@@ -1,17 +1,15 @@
 baseurl = "/"
 languageCode = "en-US"
 title = "Arjun Dhiman"
-# Enable comments by entering your Disqus shortname
-#disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
-theme = "hugo-sustain"
+googleAnalytics = "G-086R0CDV3Y"
+theme = "custom"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "avtar.jpg"
+  avatar = "avatar.jpg"
   author = "Arjun Dhiman"
   description = "Describe your website"
 

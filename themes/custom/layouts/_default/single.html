@@ -14,19 +14,21 @@
         </div>
         <div class="blog-title">
           <h4>
-          {{ .Date.Format "January 2, 2006" }}
-            &nbsp;&nbsp;
-            {{ range .Params.tags }}
+          Written on: {{ .Date.Format "Monday, Jan 2, 2006" }}
+            <br/>
+            <br/>
+            Category: {{ range .Params.tags }}
             <span class="label label-success">{{ . }}</span>
             {{ end }}
           </h4>
         </div>
+        <hr/>
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="blogpost">
               {{ .Content }}
-              <hr>
-              <div class="related-posts">
+              <!-- <hr>
+               <div class="related-posts">
                 <h5>Related Posts</h5>
                 {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
                   <div class="row">
@@ -46,10 +48,10 @@
             </div>
           </div>
           <hr>
-        <!-- {{ partial "disqus" . }} -->
-        </div>
+        </div> -->
       </div>
       {{ end }}
+    </div>
     </div>
 
     <!-- Footer -->

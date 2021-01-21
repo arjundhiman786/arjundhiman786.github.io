@@ -1,0 +1,31 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+		<img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="{{ .Site.Params.author }}" style="width:23%; border-radius: 10%;">
+        </div>
+        <h2>  &#9996; Hello, I'm <strong>{{ .Site.Params.author }}</strong></h2>
+          <h3>
+          I'm a Software Engineer and Freelancer based in Toronto, ON  &#128187;
+          <br/>
+          Currently I am an Intermediate Software Developer at BMO 
+          </h3>
+          <br/>
+          <button type="button" class="btn btn-info">   Have some you need built? Contact me</button>
+            <hr/>
+            
+        <h3>Latest Blog Post</h3>
+        {{ range ( last 1 ( where .Site.RegularPages "Type" "blog" ).ByDate ) }}
+        <li><a href="{{ .Permalink }}">{{ .Title }} | Posted at: {{ .Date.Format "Monday, Jan 2, 2006 03:04PM" }} </a></li>
+{{ end }}
+        <hr/>
+	{{ partial "social.html" . }}        
+</div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

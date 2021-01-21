@@ -1,0 +1,17 @@
+<section id="projects">
+  {{ $gistJ := getJSON "https://api.github.com/users/arjundhiman786/repos" }}
+  <div class="container">
+    <h3>{{ .Site.Data.projects.name }}</h3>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {{ range $gistJ }}
+        <h5>
+          <i class="fa fa-github"></i>&nbsp;&nbsp;
+          <strong><a href="{{ .html_url }}">{{ .name }}</a></strong>
+          {{ if .description }} &nbsp;-&nbsp;{{ .description }} {{ end }}
+        </h5>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
