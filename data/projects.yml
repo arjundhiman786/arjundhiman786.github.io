@@ -1,5 +1,5 @@
 name: Projects
 source:
-   - icon: fa fa-github
-     description: a
-     link: arjundhiman.com
+  - icon: fa fa-github
+    description: Source code for my personal website (arjundhiman.com)
+    link: https://github.com/arjundhiman786/personal_website
