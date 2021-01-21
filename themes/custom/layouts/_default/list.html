@@ -5,6 +5,7 @@
       {{ partial "header" . }}
       <div class="container">
         <h3>Blog Posts</h3>  
+        <hr/>
         <div class="panel panel-default">
             <div class="panel-body">
             {{ range .Data.Pages.ByPublishDate.Reverse }}

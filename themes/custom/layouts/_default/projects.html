@@ -1,7 +1,8 @@
 <section id="projects">
   {{ $gistJ := getJSON "https://api.github.com/users/arjundhiman786/repos" }}
   <div class="container">
-    <h3>{{ .Site.Data.projects.name }}</h3>
+    <h3>Projects</h3>
+    <hr />
     <div class="panel panel-default">
       <div class="panel-body">
         {{ range $gistJ }}
