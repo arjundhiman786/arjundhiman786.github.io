@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-US"
 title = "Arjun Dhiman"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "G-086R0CDV3Y"
+googleAnalytics = "UA-184097900-1"
 theme = "custom"
 
 [permalinks]
